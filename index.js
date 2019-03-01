@@ -1,9 +1,4 @@
-console.clear();
-
 function handleFileSelect(e) {
-
-  e.stopPropagation();
-  e.preventDefault();
 
   var files = e.dataTransfer.files; 
 
